@@ -415,6 +415,8 @@
 
             // create the elements for the controls
             $c_wrapper  = $('<ul class="bjqs-controls"></ul>');
+            
+            // TODO: make this dynamic, so that user can user external prev/next elements to control slideshow
             $c_fwd      = $('<li class="bjqs-next"><a href="#" data-direction="'+ vars.fwd +'">' + settings.nexttext + '</a></li>');
             $c_prev     = $('<li class="bjqs-prev"><a href="#" data-direction="'+ vars.prev +'">' + settings.prevtext + '</a></li>');
 
